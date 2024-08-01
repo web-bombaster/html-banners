@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>banner</title>
+	<meta name="ad.size" content="width=100%,height=250">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<a class="bn-box"  id="click_area" href="https://www.mosokna.ru/" target="_blank">
+		<div class="bn">
+			<img class="el1" src="assets/logo.svg" alt="">
+			<div class="el2">
+				<div class="el2_box">
+					<div class="el2_top">
+						<img src="assets/logo.svg" alt="" class="el2_logo">
+						<img src="assets/title.svg" alt="" class="el2_title">
+						<img src="assets/btn.svg" alt="" class="el2_btn">
+					</div>
+				</div>
+			</div>
+		</div>
+		<img src="assets/okna.jpg" alt="" class="el3">
+		<img src="assets/decor.jpg" alt="" class="el4">
+
+	</a>
+
+	<script>
+		document.getElementById("click_area").href = yandexHTML5BannerApi.getClickURLNum(1);
+	</script>
+</body>
+
+</html>
