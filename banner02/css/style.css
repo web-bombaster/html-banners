@@ -57,7 +57,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   display: block;
-  width: 536px;
+  width: 446px;
   height: auto;
   animation-name: el1;
   animation-duration: 10s;
@@ -75,7 +75,7 @@ body {
 .el2_box {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 15px;
 }
 
 @keyframes el2_top {
@@ -102,19 +102,19 @@ body {
 .el2_top {
   display: flex;
   align-items: center;
-  gap: 56px;
+  gap: 75px;
   animation-name: el2_top;
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 
 .el2_logo {
-  width: 423px;
+  width: 366px;
   height: auto;
 }
 
 .el2_btn {
-  width: 160px;
+  width: 138px;
   height: auto;
 }
 
@@ -208,7 +208,7 @@ body {
   right: 0;
   top: 0;
   display: block;
-  height: 284px;
+  height: 184px;
   width: auto;
   transform: translateX(40%) rotate(12deg);
   animation-name: el4;
