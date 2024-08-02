@@ -20,6 +20,7 @@ body {
 }
 
 .bn-box {
+  display: block;
   position: relative;
   background-color: #000;
   width: 100%;
@@ -32,7 +33,7 @@ body {
   margin: 0 auto;
   width: 100%;
   max-width: 768px;
-  height: 120px;
+  height: 150px;
   background-color: #000;
   overflow: hidden;
   display: block;
@@ -73,9 +74,9 @@ body {
   z-index: 5;
 }
 @supports (container-type: inline-size) {
-  @media screen and (max-width: 370px) {
+  @media screen and (max-width: 380px) {
     .el2 {
-      transform: translate(-31%, -50%);
+      transform: translate(-15%, -50%);
     }
   }
 }
@@ -114,10 +115,6 @@ body {
 }
 
 @keyframes el2_btn {
-  0% {
-    transform: translateY(400px);
-    opacity: 0;
-  }
   15% {
     transform: translateY(400px);
     opacity: 0;
@@ -173,10 +170,6 @@ body {
     transform: translateX(-100%);
     opacity: 0;
   }
-  15% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
   50% {
     transform: translateX(0);
     opacity: 1;
@@ -190,11 +183,8 @@ body {
   }
 }
 .el3 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  aspect-ratio: 358/279;
-  height: 120px;
+  display: block;
+  height: 150px;
   width: auto;
   animation-name: el3;
   animation-duration: 10s;
@@ -202,71 +192,73 @@ body {
   z-index: 1;
 }
 @supports (container-type: inline-size) {
-  @media screen and (max-width: 370px) {
+  @media screen and (max-width: 420px) {
     .el3 {
       left: -7%;
     }
   }
 }
 
-@keyframes el4 {
-  0% {
-    transform: translateX(100%);
-    opacity: 0;
-    @supports (container-type: inline-size) {
-      @media screen and (max-width: 370px) {
-        transform: translateX(40%);
-      }
-    }
-  }
-  15% {
-    transform: translateX(100%);
-    opacity: 0;
-    @supports (container-type: inline-size) {
-      @media screen and (max-width: 370px) {
-        transform: translateX(40%);
-      }
-    }
-  }
-  60% {
-    transform: translateX(0%);
-    opacity: 1;
-    @supports (container-type: inline-size) {
-      @media screen and (max-width: 370px) {
-        transform: translateX(40%);
-      }
-    }
-  }
-  90% {
-    transform: translateX(0%);
-    opacity: 1;
-    @supports (container-type: inline-size) {
-      @media screen and (max-width: 370px) {
-        transform: translateX(40%);
-      }
-    }
-  }
-  100% {
-    opacity: 0;
-  }
-}
 .el4 {
   position: absolute;
   right: 0;
   top: 0;
   display: block;
-  aspect-ratio: 113/250;
-  height: 134px;
+  height: 164px;
   width: auto;
+  transform: translateX(40%) rotate(12deg);
   animation-name: el4;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   z-index: 1;
 }
 @supports (container-type: inline-size) {
-  @media screen and (max-width: 370px) {
+  @media screen and (max-width: 420px) {
     .el4 {
-      right: -5%;
+      right: -9%;
+      transform: translateX(40%) rotate(18deg);
     }
+  }
+}
+
+@keyframes el4 {
+  0% {
+    transform: translateX(100%) rotate(12deg);
+    opacity: 0;
+    @supports (container-type: inline-size) {
+      @media screen and (max-width: 420px) {
+        transform: translateX(40%) rotate(18deg);
+      }
+    }
+  }
+  15% {
+    transform: translateX(100%) rotate(12deg);
+    opacity: 0;
+    @supports (container-type: inline-size) {
+      @media screen and (max-width: 420px) {
+        transform: translateX(40%) rotate(18deg);
+      }
+    }
+  }
+  60% {
+    transform: translateX(40%) rotate(12deg);
+    opacity: 1;
+    @supports (container-type: inline-size) {
+      @media screen and (max-width: 420px) {
+        transform: translateX(40%) rotate(18deg);
+      }
+    }
+  }
+  90% {
+    transform: translateX(40%) rotate(12deg);
+    opacity: 1;
+    @supports (container-type: inline-size) {
+      @media screen and (max-width: 420px) {
+        transform: translateX(40%) rotate(18deg);
+      }
+    }
+  }
+  100% {
+    opacity: 0;
   }
 }
