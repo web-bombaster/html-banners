@@ -96,22 +96,18 @@ body {
 
 @keyframes el2_logo {
 	0% {
-		// transform: translateY(-400px);
+		opacity: 0;
+	}
+
+	20% {
 		opacity: 0;
 	}
 
 	30% {
-		// transform: translateY(-400px);
-		opacity: 0;
-	}
-
-	40% {
-		// transform: translateY(0);
 		opacity: 1;
 	}
 
 	91% {
-		// transform: translateY(0);
 		opacity: 1;
 	}
 
@@ -166,11 +162,11 @@ body {
 		opacity: 0;
 	}
 
-	15% {
+	35% {
 		opacity: 0;
 	}
 
-	30% {
+	50% {
 		opacity: 1;
 	}
 

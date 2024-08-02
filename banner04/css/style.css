@@ -93,10 +93,10 @@ body {
   0% {
     opacity: 0;
   }
-  30% {
+  20% {
     opacity: 0;
   }
-  40% {
+  30% {
     opacity: 1;
   }
   91% {
@@ -143,10 +143,10 @@ body {
   0% {
     opacity: 0;
   }
-  15% {
+  35% {
     opacity: 0;
   }
-  30% {
+  50% {
     opacity: 1;
   }
   91% {

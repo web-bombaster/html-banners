@@ -92,10 +92,10 @@ body {
   0% {
     opacity: 0;
   }
-  30% {
+  20% {
     opacity: 0;
   }
-  40% {
+  30% {
     opacity: 1;
   }
   91% {
@@ -115,19 +115,15 @@ body {
 
 @keyframes el2_btn {
   0% {
-    transform: translateY(400px);
     opacity: 0;
   }
-  15% {
-    transform: translateY(400px);
+  24% {
     opacity: 0;
   }
-  30% {
-    transform: translateY(0);
+  34% {
     opacity: 1;
   }
   91% {
-    transform: translateY(0);
     opacity: 1;
   }
   100% {
@@ -146,10 +142,10 @@ body {
   0% {
     opacity: 0;
   }
-  15% {
+  22% {
     opacity: 0;
   }
-  30% {
+  32% {
     opacity: 1;
   }
   91% {

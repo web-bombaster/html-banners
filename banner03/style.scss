@@ -98,11 +98,11 @@ body {
 		opacity: 0;
 	}
 
-	30% {
+	20% {
 		opacity: 0;
 	}
 
-	40% {
+	30% {
 		opacity: 1;
 	}
 
@@ -125,22 +125,22 @@ body {
 }
 @keyframes el2_btn {
 	0% {
-		transform: translateY(400px);
+		// transform: translateY(400px);
 		opacity: 0;
 	}
 
-	15% {
-		transform: translateY(400px);
+	24% {
+		// transform: translateY(400px);
 		opacity: 0;
 	}
 
-	30% {
-		transform: translateY(0);
+	34% {
+		// transform: translateY(0);
 		opacity: 1;
 	}
 
 	91% {
-		transform: translateY(0);
+		// transform: translateY(0);
 		opacity: 1;
 	}
 
@@ -161,11 +161,11 @@ body {
 		opacity: 0;
 	}
 
-	15% {
+	22% {
 		opacity: 0;
 	}
 
-	30% {
+	32% {
 		opacity: 1;
 	}
 
