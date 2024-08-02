@@ -184,19 +184,19 @@ body {
 
 @keyframes el4 {
   0% {
-    transform: translateX(100%) rotate(12deg);
+    transform: translateX(100%);
     opacity: 0;
   }
   15% {
-    transform: translateX(100%) rotate(12deg);
+    transform: translateX(100%);
     opacity: 0;
   }
   60% {
-    transform: translateX(40%) rotate(12deg);
+    transform: translateX(0);
     opacity: 1;
   }
   90% {
-    transform: translateX(40%) rotate(12deg);
+    transform: translateX(0);
     opacity: 1;
   }
   100% {
@@ -208,9 +208,9 @@ body {
   right: 0;
   top: 0;
   display: block;
+  aspect-ratio: 68/150;
   height: 184px;
   width: auto;
-  transform: translateX(40%) rotate(12deg);
   animation-name: el4;
   animation-duration: 10s;
   animation-iteration-count: infinite;
